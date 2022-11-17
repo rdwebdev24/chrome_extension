@@ -1,0 +1,16 @@
+{
+     "manifest_version": 3,
+     "version": "0.1",
+     "name": "border-radius",
+     "content_scripts": [
+       {
+         "matches": ["*://*.youtube.com/*"],
+         "css":   ["foo.css"]
+       }
+     ],
+   "permissions":[
+     "activeTab",
+     "storage"
+   ]
+   }
+   

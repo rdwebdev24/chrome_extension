@@ -1,0 +1,19 @@
+{
+     "manifest_version":3,
+     "version":"1.0",
+     "name":"SMP",
+     "description":"A Simple interest calculator extension",
+     "icons":{
+          "128":"icon128.png",
+          "48":"icon48.png",
+          "16":"icon16.png"
+     },
+     "action":{                        
+          "default_icon":"icon16.png",
+          "default_popup":"index.html"
+     },
+     "permissions":[
+          "storage"
+     ]
+    
+}

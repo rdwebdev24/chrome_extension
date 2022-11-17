@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>SMP</title>
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+     <style>
+          * {
+               margin: 0;
+               padding: 0;
+               box-sizing: border-box;
+          }
+
+          .container {
+               border-radius: 8px;
+               width: 300px;
+               height: 400px;
+          }
+
+          .navbar {
+               display: flex;
+               flex-direction: row;
+               justify-content: space-between;
+               align-items: center;
+               padding: 10px;
+               box-shadow: 0 2px 4px grey;
+          }
+
+          .logo i {
+               font-size: 1.5rem;
+          }
+
+          #Form {
+               display: flex;
+               flex-direction: column;
+               justify-content: center;
+               align-items: center;
+               padding: 10px;
+               font-size: 1rem;
+          }
+
+          #Form div {
+               padding: 10px;
+          }
+
+          #btn , #clear{
+               padding: 5px 8px;
+          }
+
+          .footer{
+               position: absolute;
+               bottom: 0px;
+               color: grey;
+               left: 50%;
+               transform: translate(-50%);
+               padding: 5px;
+          }
+          #result{
+               padding: 10px;
+          }
+     </style>
+</head>
+
+<body>
+     <div class="container">
+          <!-- NAVBAR MENU -->
+          
+          <!-- NAVBAR -->
+          <div class="navbar">
+               <div class="logo">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+               </div>
+               <h2>SMP</h2>
+          </div>
+          <!-- BODY -->
+          <form action="#" id="Form">
+               <div>
+                    <h3>Principle : </h3>
+                    <input type="text" id="principle">
+               </div>
+               <div>
+                    <h3>Rate : </h3>
+                    <input type="text" id="rate">
+               </div>
+               <div>
+                    <h3>Time : </h3>
+                    <input type="text" id="time">
+               </div>
+               <div>
+                    <p id="result">Simple Interest : </p>
+                    <button id="btn">Calculate</button>
+                    <button id="clear">clear</button>
+               </div>
+          </form>
+          <div class="footer">
+               --version 1.0
+          </div>
+     </div>
+     <script src="index.js"></script>
+</body>
+
+</html>

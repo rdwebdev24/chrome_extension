@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #202124;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+.wrapper {
+  position: relative;
+  color: white;
+  font-weight: bold;
+  background-color: #292a2d;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  height: 300px;
+  border-radius: 3px;
+  font-family: monospace;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+h1 {
+  padding: 10px 0;
+  margin-bottom: 10px;
+  font-family: monospace;
+}
+
+.option {
+  padding: 10px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.option span {
+  font-size: 1rem;
+}
+
+.option_btn {
+  background-color: #292a2d;
+  color: #fff;
+  padding: 8px 15px;
+  border-radius: 2px;
+  border: 1px solid white;
+}
+.option_btn:hover {
+  background-color: #fff;
+  color: #333;
+  cursor: pointer;
+}
+
+.version {
+  font-size: 0.8rem;
+  position: absolute;
+  bottom: 8px;
+  color: grey;
+}
+
+.about_page {
+  position: absolute;
+  left: -400px;
+  width: 400px;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: #222328;
+  box-shadow: 3px 0 5px #000;
+  transition: all 00.3s ease-in-out;
+  color: #fff;
+}
+.about_page h1 {
+  margin: 30px 0;
+}
+.about_page p {
+  font-family: "Indie Flower", cursive;
+  padding: 15px;
+  font-size: 1rem;
+}
+.about_page .links a {
+     font-size: 1rem;
+  font-family: "Indie Flower", cursive;
+  text-decoration: none;
+  color: #fff;
+}
+.about_page .links a:hover{
+ color: cyan;
+}
+
+
+#cross{
+     padding: 10px;
+     right: 10px;
+     position: absolute;
+     font-size: 1.5rem;
+     cursor: pointer;
+}

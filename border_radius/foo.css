@@ -1,0 +1,13 @@
+*{
+     border-radius: 0 !important;
+}
+
+yt-img-shadow{
+     border-radius:50% !important
+}
+.ytp-spinner-circle{
+     border-radius:50% !important
+}
+yt-chip-cloud-chip-renderer,.yt-spec-icon-badge-shape__badge{
+     border-radius: 10px !important;
+}

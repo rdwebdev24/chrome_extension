@@ -1,0 +1,18 @@
+{
+     "manifest_version":3,
+     "version":"0.0.1",
+     "name":"PJ's",
+     "description":"A Budget Manager extension",
+     "icons":{
+          "128":"joke.png"
+     },
+
+     "action":{                        
+          "default_icon":"joke.png",
+          "default_popup":"popup.html"
+     },
+
+     "permissions":[
+          "activeTab"
+     ]
+}

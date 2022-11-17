@@ -1,0 +1,8 @@
+Reference for chrome extension : 
+
+1. https://developer.chrome.com/docs/extensions/reference/runtime/#event-onInstalled
+
+2. https://heptagon.in/2019/02/27/how-to-build-a-chrome-extension-introduction/
+
+3. code train you tube channel
+
